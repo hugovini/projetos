@@ -4,5 +4,5 @@
 Projetos praticados durante o curso. 
 Clique abaixo para os projetos.
 
-<a href="hugovini.github.io/projetos/projeto-cordel/index.html">Projeto Cordel.</a> <br>
-<a href="hugovini.github.io/projetos/android-cguana/index.html">Projeto Android.</a>
+<a href="projeto-cordel/index.html">Projeto Cordel.</a> <br>
+<a href="android-cguana/index.html">Projeto Android.</a>
