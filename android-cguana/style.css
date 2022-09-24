@@ -1,0 +1,149 @@
+@charset "UTF-8";
+body{
+    background-color: lightgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+p{
+    text-align: justify;
+    line-height: 2em;
+}
+header{
+    background-image: linear-gradient(to top, rgb(5, 46, 10), rgb(76, 219, 76));
+    padding: 20px;
+}
+header > h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 25px 25px 25px;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
+}
+header > p{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
+    text-align: center;
+    margin: 16px auto;
+    padding-bottom: 12px;
+}
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+header > nav > a:hover{
+    color: rgb(76, 219, 76);
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 5px;
+}
+
+
+
+
+main{
+    padding: 15px;
+    background-color: white;
+    margin: auto;
+    min-width: 280px;
+    max-width: 800px;
+    border-radius: 0px 0px 15px 15px;
+}
+img{
+    width: 100%;
+}
+main > section#principal > p > a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    background-color:rgba(76, 219, 76, 0.473); 
+    padding-left: 4px;
+    padding-right: 4px;
+}
+main > section#principal > iframe{
+    width: 100%;
+}
+main > section#principal > p.parag{
+    text-indent: 40px;
+}
+main > section#principal > h1{
+    font-family: 'IDroid';
+    color: rgb(52, 153, 52) ;
+    font-size: 30px;
+    margin-top: 10px;
+}
+main > section#principal > h2{
+    font-family: 'IDroid';
+    color: rgb(52, 153, 52) ;
+    background-image: linear-gradient(to right, rgba(76, 219, 76, 0.664), white);
+}
+main > section#principal > picture#bugdroid{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+main > section#quer{
+   background-color: rgba(82, 201, 118, 0.534);
+   border-radius: 10px;
+   width: auto;
+   height: auto;
+   padding-bottom: 10px;
+}
+main > section#quer > div#tudo > p{
+    text-indent: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+main > section#quer > p > a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+main > section#quer > div#tudo > p > a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+main > section#quer > div#tudo > div{
+    width: 280px;
+    height: 152px;
+    display: inline-block;
+}
+main > section#quer > div#tudo > h3{
+    background-color: rgb(39, 155, 74);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+main > section#quer > div#tudo > div > ul > li::before{
+    content:  "\2714  ";
+}
+main > section#quer > div#tudo > div > ul{
+    margin: 0px;
+}
+
+
+
+
+main > section#fim > div {
+    padding-top: 15px;
+    padding-left: 8px;
+    text-indent: 20px ;
+}
+footer{
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(32, 110, 32);
+    color: white;
+}
+footer > div > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
